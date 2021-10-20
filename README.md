@@ -10,7 +10,7 @@ API by ipgeolocation -> https://ipgeolocation.io/
 
 ## Image :camera:
 <div align="center">
-    <img src="https://user-images.githubusercontent.com/52220244/138132208-3f51a797-a760-43d5-9ede-582eb7735402.JPG">
+    <img width="725" src="https://user-images.githubusercontent.com/52220244/138132208-3f51a797-a760-43d5-9ede-582eb7735402.JPG">
     <img src="https://user-images.githubusercontent.com/52220244/138132210-0e1f10d2-7d91-4fe4-a784-399427fc8c3a.JPG">
 </div>
 
