@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rastrear IP</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css">
+</head>
+    <body>
+        <div class="wrapper">
+            <header><i class="bx bx-left-arrow-alt"></i>Rastrear IP</header>
+            <section class="input-part">
+                <p class="info-txt"></p>
+                <input type="text" placeholder="Digite um IP" spellcheck="false" required>
+                <div class="separator"></div>
+                <button>Obter o IP do dispositivo</button>
+            </section>
+            <section class="ip-part">
+                <img src="_" alt="Bandeira do país">
+                <div class="location">
+                    <div class="min-detail">
+                        <i class='bx bxs-city'></i>
+                        <span class="city">_, _</span>
+                    </div>
+                    <div class="other-locations">
+                        <span class="continent">_, _</span>
+                        <span class="country">_, _</span>
+                        <span class="region">_, _</span>
+                    </div>
+                </div>
+                <div class="map">
+                    <i class='bx bx-map-alt'></i>
+                    <span><a href="_" target="_blank"></a></span>
+                </div>
+                <div class="ip-address">
+                    <i class='bx bxs-devices'></i>
+                    <span>_</span>
+                </div>
+                <div class="bottom-details">
+                    <div class="column feels">
+                        <i class="bx bx-map"></i>
+                        <div class="details">
+                            <div class="lat-long">
+                                <span>_, _</span>
+                            </div>
+                            <p>Latitude e longitude</p>
+                        </div>
+                    </div>
+                    <div class="column security">
+                        <i class='bx bx-check-shield' ></i>
+                        <div class="details">
+                            <span>_</span>
+                            <p>VPN</p>
+                        </div>
+                    </div>
+                    <div class="column currency">
+                        <i class='bx bx-coin' ></i>
+                        <div class="details">
+                            <span>_, _</span>
+                            <p>Moeda</p>
+                        </div>
+                    </div>
+                    <div class="column timezone">
+                        <i class='bx bx-time' ></i>
+                        <div class="details">
+                            <span>_:_:_</span>
+                            <p>Horário</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>
