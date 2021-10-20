@@ -7,7 +7,7 @@ wIcon = wrapper.querySelector(".ip-part img"),
 map = wrapper.querySelector(".map span a"),
 arrowBack = wrapper.querySelector("header i");
 
-const apiKey = '62daf4fb22f747cfaee1436e8bd61cbc';
+const apiKey = 'API_KEY_CODE';
 let api;
 
 inputField.addEventListener("keyup", e => {
